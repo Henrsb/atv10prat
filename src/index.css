@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.light-mode table {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode table {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.light-mode th,
+.light-mode td {
+  border: 1px solid #ddd;
+}
+
+.dark-mode th,
+.dark-mode td {
+  border: 1px solid #444;
+}
+
+.light-mode button {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode button {
+  background-color: #333;
+  color: white;
+}
+
+.light-mode .MuiPaper-root {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .MuiPaper-root {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.light-mode .MuiTableCell-root {
+  border-bottom: 1px solid #ddd;
+}
+
+.dark-mode .MuiTableCell-root {
+  border-bottom: 1px solid #444;
+}
+
+/* Adicionando estilos para garantir que a cor do texto seja branca no modo escuro */
+.dark-mode .MuiTypography-root {
+  color: white !important;
+}
+
+.dark-mode .MuiCardHeader-root .MuiCardHeader-title {
+  color: white !important;
+}
+
+.dark-mode .MuiCardHeader-root .MuiCardHeader-subheader {
+  color: white !important;
+}
+
+.dark-mode .MuiTableCell-root {
+  color: white !important;
+}
+
+.dark-mode .MuiButton-root {
+  color: white !important;
+}

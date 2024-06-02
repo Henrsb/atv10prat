@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Alterando a cor de fundo para cinza claro */
+}
+
+.App-logo {
+  height: 20vmin; /* Reduzindo o tamanho do logo */
+  pointer-events: none;
+  margin-bottom: 20px; /* Adicionando margem inferior para separar do conteúdo abaixo */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Reduzindo a duração da animação para 10 segundos */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Aumentando o tamanho da fonte */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
